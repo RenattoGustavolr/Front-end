@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cores principais */
+:root {
+    --roxo: #6a0dadbb;
+    --bege: #f5f5dc;
+    --roxo-claro: #9b59b6;
+    --bege-escuro: #e0d7c6;
+}
+
+/* Corpo da página */
+body {
+    background-color: #8b5e3c96;
+    color: var(--roxo);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: var(--roxo);
+    color: var(--bege);
+}
+
+header #logo img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--bege);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: var(--roxo-claro);
+}
+
+header nav img {
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* Container principal */
+#conteiner {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Apresentação */
+.apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#texto {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+#texto h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#texto h3 {
+    color: var(--roxo-claro);
+}
+
+/* Carrossel */
+#carroselapre {
+    flex: 2;
+    position: relative;
+    min-width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+   
+   
+}
+
+#carroselapre1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+   
+}
+
+#carroselapre1 img {
+    width: 50%;
+    height: 300px;
+    max-width: 50%;
+    flex-shrink: 0;
+   
+}
+
+button.volta,
+button.proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--roxo);
+    border: none;
+    color: var(--bege);
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+button.volta:hover,
+button.proximo:hover {
+    opacity: 1;
+}
+
+button.volta { left: 10px; }
+button.proximo { right: 10px; }
+
+/* Produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.prod {
+    background-color: var(--bege-escuro);
+    border: 1px solid var(--roxo);
+    border-radius: 10px;
+    flex: 1 1 calc(20% - 20px);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.prod:hover {
+    transform: scale(1.05);
+}
+
+.prod img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prod a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--roxo);
+    font-weight: bold;
+}
+
+/* Rodapé */
+#rodape {
+    background-color: var(--roxo);
+    color: var(--bege);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

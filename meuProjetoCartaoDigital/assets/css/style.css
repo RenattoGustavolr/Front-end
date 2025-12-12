@@ -1,0 +1,122 @@
+body{
+    /*
+    background-color: rgb(235, 236, 236);
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    width: 100vw;
+    */
+   
+    /* Fundo gradiente de preto para um metálico */
+    background: linear-gradient(45deg, #000000, #a9a9a9, #b0b0b0, #dcdcdc, #e5e5e5);
+    background-size: 200% 200%;
+    animation: metal 5s ease-in-out infinite;
+}
+
+/* Animação para dar um efeito de movimento metálico */
+@keyframes metal {
+    0% {
+        background-position: 200% 200%;
+    }
+    50% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 200%;
+    }
+}
+
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;  
+}
+nav a:hover{
+    background-color: rgb(202, 201, 201);
+    color: white    ;
+}
+
+#title{
+    padding: 1px 20rem;
+
+}
+#title h2{
+   padding: 0% 5rem;
+}
+#corpo{
+    display: flex;
+    justify-content: flex-end;
+
+}
+#mnlateral{
+    margin: 0rem 2px;
+    width: 20rem;
+
+}
+#mnlateral ul li{
+    list-style: none;
+    margin: 1rem 0rem;
+
+}
+#mnlateral ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+#mnlateral ul li a:hover{
+     color: rgb(129, 84, 84);
+     text-decoration: underline;
+
+}
+#tex button{
+    background-color: #25d366;
+    padding: 16px 28px;
+    border-radius: 50px;
+    line-height: 16px;
+    margin-top: 1rem;
+    margin-left: 40%;
+    
+    
+}
+#tex{
+    width: 50rem;
+    
+
+}
+#propaganda{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+#tela1{
+    
+    margin: 2px;
+  
+    display: flex;
+    justify-content: center;
+    
+}
+#tela1 img{
+
+    border-radius: 10px;
+    width: 50%;
+    height: 5rem;
+    padding-top: 5px;
+}
+#tela1 button{
+    background-color: #25d366;
+    padding: 16px 28px;
+    border-radius: 50px;
+    line-height: 16px;
+    margin-top: 1rem;
+    
+}

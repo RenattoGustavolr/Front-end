@@ -1,0 +1,84 @@
+body{
+    
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem; 
+}
+h2{
+    
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav a{
+   text-decoration: none;
+   padding: 0.5rem 1.5rem;
+   color: black;
+   font-weight: bold;
+
+}
+.conteudo{
+    
+    text-align: center;
+}
+h1{
+    padding: 0 10rem;
+    font-size:40px;
+}
+p{
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    margin: 2rem 5rem;
+    
+}
+#whatsapp{
+  background-color: rgb(48, 224, 78);
+  font-size: 16px;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  border: none;
+
+}
+.servico{
+
+    margin: 5rem 0;
+    
+    
+}
+h2{
+    padding: 1rem 0rem 3rem 0rem ;
+    text-align: center;
+}
+#ser{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ser1{
+    background-color: #f3f1f1;
+    width: 15rem;
+    height: 7.5rem;
+    position: relative;
+    border-radius: 15px;
+     
+}
+#ser1 h4{
+    font-size: 20px;
+    position: absolute;
+    top: -25px;
+    left: 80px;  
+}
+#ser1 p{
+   
+    margin: 2rem 1rem;
+    text-align: center;
+}
+.contato p{
+    text-align: center;
+}

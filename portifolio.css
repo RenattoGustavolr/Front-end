@@ -1,0 +1,11 @@
+.portfolio{
+    text-decoration: none;
+    border-radius: 18px;
+    background-color: rgba(48, 47, 47, 0.178);
+    color: #00ff7f;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+.portfolio:hover{
+    background-color: black;
+}
